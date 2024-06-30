@@ -1,6 +1,7 @@
 const form = document.getElementById('form');
 
-form.addEventListener('submit', function(event) {
+form.addEventListener('submit', function(event) { // Adiciona um ouvinte de evento (event listener) ao elemento do formulário (form). Esse ouvinte escuta especificamente o evento de submit (envio) do formulário.
+//Define uma função anônima que será executada quando o evento de submit for acionado. O parâmetro event representa o objeto do evento que contém informações sobre o evento de envio.
         event.preventDefault() //impede o carregamento da pagina no momento em que da submit no forms
 
         const weight = document.getElementById('weight').value;
